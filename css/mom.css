@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+#show_img>img{
+    width: 100%;
+}
+
+.fgx{
+    background-color: #dc4b82;
+    height: 50px;
+    width: 100%;
+    
+}
+.fgx>ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.fgx>ul>li{
+    width: 200px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    background-color: #dc4b82;
+    
+}
+.fgx>ul>li>a{
+    display: block;
+    color: white;
+}
+.nq{
+    background-color: #2e2c2c;
+    height: 60px;
+}
+.nq>a,.zr>a,.tz>a{
+    font-size: 26px;
+}

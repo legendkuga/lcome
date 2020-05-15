@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* 三个下拉菜单 */
+#nav3-1{  
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -698px;
+    
+}
+#nav3-2{  
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -698px;
+    
+}
+#nav3-3{  
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -698px;
+    
+}
+
+/* 下拉菜单的左右 */
+
+.nav3l{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    padding: 30px
+}
+.nav3r{
+    padding: 30px;
+}
+
+/* 下拉菜单中的竖线高度 */
+#nav3c{
+    height: 200px;
+}
+
+/* 字体加粗 */
+.blackmore{
+    font-weight: 600;
+}
+
+
+

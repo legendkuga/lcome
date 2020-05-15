@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+#top{
+    width: 100%;
+    height: 100px;
+    background-color: black;   
+    position: relative;
+}
+#top>img{
+    position: absolute;
+    left: 50%;
+     margin-left: -239px; 
+}
+
+#box{
+    width: 1260px;
+    margin: 0 auto;
+}
+#box>a{
+    display: block;
+    color: black;
+    margin: 10px auto;
+}
+
+#box h2{
+    font-size: 30px;
+}
+
+#table{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.table{
+    width: 715px;
+    min-height: 300px;
+    border: 1px black solid;
+    position: relative;
+}
+.table>ul{
+    display: flex;
+    flex-direction: row; 
+}
+.table>ul>li{
+    text-align: center;
+    width: 100px;
+    margin-left: 15px; 
+}
+.table>ul+ul>li{
+    height: 100px;
+    line-height: 100px;
+}
+.table>ul:nth-child(1){
+    background-color: black;
+    color: white;
+     padding: 10px 0;
+}
+.table>ul+ul>li:nth-child(6){
+    position: absolute;
+    left: 550px;
+}
+
+.table>ul+ul>li:nth-child(7){
+   
+    margin-left: 50px;
+ }
+.table>ul>li>img{
+    width: 100px;
+    
+}
+
+#allcheck{   
+    border: none;
+    color: white;
+    background-color: black;
+}
+#allcheck:hover{   
+    
+    color: black;
+    background-color:white ;
+}
+
+#num{
+    width: 60px;
+    text-align: center;
+}
+
+
+
+/* 结算 */
+#js{
+    width: 296px;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #e5e5e5 ;
+    
+}
+#js>h3{
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2;
+    
+    font-size: 18px;
+}
+#btn{
+    box-sizing:border-box;
+    margin: 10px auto 20px; 
+    height: 40px;
+    line-height: 40px;
+    width: 200px;
+    color: #fff!important;
+    border-color: #dadada!important;
+    background: #dadada!important;
+    opacity: 1;
+    font-size: 14px;
+    padding: 0 20px;
+   
+}
+#jisuan>ul>li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
