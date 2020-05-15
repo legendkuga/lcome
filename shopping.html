@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/com.css">
+    <link rel="stylesheet" href="./css/shop.css">
+</head>
+<body>
+    <div id="top">
+        <img src="./images/logo.png" alt="">
+    </div>
+
+    <section id="box">
+        <a href="index.html"><h4><继续购物</h4></a>
+    <h2>我的购物袋</h2>
+    <section id="table">
+            <div class="table" class="float_left" >
+                <ul class="t_ul">
+                    <li><input id="allcheck" type="button" value="全选"></li>
+                    <li>商品信息</li>
+                    <li>单价</li>
+                    <li>数量</li>
+                    <li>小计</li>
+                    <li></li>
+                </ul>
+                <!-- 商品 -->
+                <ul id="shangPin">
+                    <li><p>第二代小黑瓶</p></li>
+                    <li><img src="./images/hf/第二代小黑瓶.jpg" alt=""></li>
+                    <li>￥760</li>
+                    <li><select name="" id="num">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select></li>
+                    <li>￥760</li>
+                    <li><input id="del" type="button" value="删除"></li>
+                    <li><input type="checkbox" name="" id="check"></li>
+                </ul>
+                <ul id="shangPin">
+                    <li><p>第二代小黑瓶</p></li>
+                    <li><img src="./images/hf/口碑粉水.jpg" alt=""></li>
+                    <li>￥760</li>
+                    <li><select name="" id="num">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select></li>
+                    <li>￥760</li>
+                    <li><input id="del" type="button" value="删除"></li>
+                    <li><input type="checkbox" name="" id="check"></li>
+                </ul>
+                
+            </div>
+        
+
+        <!-- 结算 -->
+        <div id="js" class="float_right">
+            <h3>订单总结</h3>
+            <input id="btn" type="button" value="立即结算">
+            <!-- 计算 -->
+            <div id="jisuan">
+                <ul>
+                
+                <li><p>商品价格</p><span >￥0</span></li>
+                    <li><p>优惠金额</p><span >￥0</span></li>
+                    <li><p>运费</p><span >￥0</span></li>
+                    <li><p>总价</p><span >￥0</span></li>
+                </ul>
+                
+                
+                
+
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <div class="copy" style="position: fixed;bottom: 0;left: 50%;margin-left: -432px;">
+        <p>国家药监局提示您：请正确认识化妆品的功效，化妆品不能代替药品，不能治疗皮肤病等疾病</p>
+        <p>© L’Oreal China 欧莱雅（中国）有限公司版权所有  <img src="./images/bqxx_03.jpg" alt="">中国工商 沪ICP备08100043号-34 <img src="./images/bqxx_06.jpg" alt="">沪公网安备 31010602001526号</p>
+        <p>使用条款 | Cookies政策 | 隐私政策</p>
+        <p>浏览该网站表示您接受并同意我们使 用cookies为您提供个性化的浏览体验。点击Cookies政策了解详情</p>
+    </div>
+    
+    
+</body>
+</html>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script>
+    $("#allcheck").click(function(){
+            console.log("1")
+        })
+
+     $("#check").click(function(){
+            console.log("2")
+        })
+    $("#check").click(function(){
+            console.log("3")
+        })
+</script>
